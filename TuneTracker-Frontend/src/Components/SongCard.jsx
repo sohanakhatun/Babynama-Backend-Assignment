@@ -32,7 +32,7 @@ const SongCard = ({ songs, artistName }) => {
           ))}
         </div>
       ) : (
-        <div>No Songs Found</div>
+        <div></div>
       )}
     </div>
   );
