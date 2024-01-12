@@ -37,7 +37,7 @@ const AddSongs = () => {
       setAlbumart("");
       setArtist("");
       setYear();
-      toast.success("Song added successfully");
+    
       navigate("/");
     } catch (error) {
       toast.error(error);
