@@ -26,7 +26,9 @@ const AddSongs = () => {
       })
         .then((response) => {
           if (!response.ok) {
-            toast.error(response.message);
+            toast.error("Something went wrong!");
+          }else{
+            toast.success("Song added successfully");
           }
 
           return response.json();
