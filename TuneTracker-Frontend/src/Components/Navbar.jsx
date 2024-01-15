@@ -67,7 +67,7 @@ const Navbar = () => {
         {isOpen ? (
           <div className="flex flex-col gap-4 lg:hidden">
             <a href="/" className="hover:text-indigo-600">Home</a>
-            <a href="/songs" className="hover:text-indigo-600">Songs</a>
+            <a href="/" className="hover:text-indigo-600">Songs</a>
             <a href="/artists" className="hover:text-indigo-600">Artists</a>
             <div className="flex flex-row flex-wrap justify-center gap-4 ">
           <button
